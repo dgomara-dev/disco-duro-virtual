@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525252;
+}
+
+header {
+    vertical-align: top;
+    display: inline-block;
+    padding: 25px 0px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+    vertical-align: top;
+    display: inline-block;
+}
+
+header a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+header img {
+    height: 50px;
+}
+
+section {
+    margin: 120px 0px;
+}
+
+article {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;   
+    width: 570px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto; 
+}
+
+article:first-of-type {
+    margin-right: 25px;
+}
+
+footer { 
+    padding: 25px 0px;
+    margin-bottom: 70px;
+    font-size: 12px;
+    width: 100%;
+    border-top: 2px solid lightgray;
+}
+
+input[type=text], input[type=password] {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+    font-size: 16px;
+    color: gray;
+    padding: 10px 15px;
+    margin: 8px 0;   
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    vertical-align: top;
+    display: block;
+    background-color: #428dff;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 10px 15px;
+    margin: 18px 0;
+    width: 140px;
+    border: 1px solid #2554C7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;  
+    cursor: pointer;
+}
+
+#mensaje {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #f44336;
+    font-weight: lighter;
+}
